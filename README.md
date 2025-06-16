@@ -24,14 +24,14 @@ Une application PowerShell moderne avec interface graphique pour la numérisatio
 
 1. **Cloner le repository**
 ```bash
-git clone https://github.com/o2Cloud-fr/scanner-pro.git
-cd scanner-pro
+git clone https://github.com/o2Cloud-fr/o2CloudSCAN.git
+cd o2CloudSCAN
 ```
 
 2. **Exécuter l'application**
 ```powershell
 # Méthode 1 : Exécution directe
-PowerShell -ExecutionPolicy Bypass -File "ScannerPro.ps1"
+PowerShell -ExecutionPolicy Bypass -File "o2CloudSCAN.ps1"
 
 # Méthode 2 : Via PowerShell ISE
 # Ouvrir PowerShell ISE et charger le fichier
@@ -123,7 +123,7 @@ Get-WmiObject -Class Win32_PnPSignedDriver | Where-Object {$_.DeviceName -like "
 #### Erreur de permissions
 ```powershell
 # Exécuter en tant qu'administrateur
-Start-Process PowerShell -Verb RunAs -ArgumentList "-ExecutionPolicy Bypass -File ScannerPro.ps1"
+Start-Process PowerShell -Verb RunAs -ArgumentList "-ExecutionPolicy Bypass -File o2CloudSCAN.ps1"
 ```
 
 #### Conversion PDF échoue
