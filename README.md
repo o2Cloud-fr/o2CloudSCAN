@@ -1,4 +1,4 @@
-# Scanner Pro 📱
+# o2CloudSCAN 📱
 
 Une application PowerShell moderne avec interface graphique pour la numérisation de documents, offrant une expérience utilisateur intuitive et des fonctionnalités avancées.
 
